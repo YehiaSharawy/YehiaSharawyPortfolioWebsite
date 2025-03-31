@@ -1,0 +1,44 @@
+$background-color: #fff0df;
+$primary-color: #292524;
+$secondary-color: #fdaab3;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $background-color;
+
+    header {
+    }
+    main {
+        section {
+            height: 100vh;
+            height: 100dvh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            &:nth-child(1) {
+                align-items: center;
+                justify-content: center;
+                h1 {
+                    /* text-align: center; */
+                    font-size: 3rem;
+                    font-weight: bold;
+                    font-family: "Courier New", Courier, monospace;
+                }
+                img {
+                    width: 60%;
+                    height: auto;
+                }
+                p {
+                    font-size: 1.5rem;
+                    font-family: Jetbrains Mono;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
