@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gravitas+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +7,12 @@
 
 body {
   background-color: #fff0df;
+}
+body header nav h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Bebas Neue", sans-serif;
+  user-select: none;
 }
 body main section {
   height: 100vh;
@@ -21,7 +28,8 @@ body main section:nth-child(1) {
 body main section:nth-child(1) h1 {
   font-size: clamp(2rem, 5vw, 3rem);
   font-weight: bold;
-  font-family: "Courier New", Courier, monospace;
+  user-select: none;
+  font-family: "Playfair Display", serif;
 }
 body main section:nth-child(1) img {
   width: 100%;
@@ -38,9 +46,12 @@ body main section:nth-child(1) img {
   }
 }
 body main section:nth-child(1) p {
-  font-size: clamp(1rem, 3vw, 1.5rem);
-  font-family: Jetbrains Mono;
+  font-size: clamp(1.6rem, 3vw, 2rem);
+  font-family: "Playfair Display", serif;
+  font-style: italic;
   font-weight: 400;
+  user-select: none;
+  margin-top: 1.2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
