@@ -1,0 +1,28 @@
+{
+  "name": "yehiasharawyportfoliowebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YehiaSharawy/YehiaSharawyPortfolioWebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/YehiaSharawy/YehiaSharawyPortfolioWebsite/issues"
+  },
+  "homepage": "https://github.com/YehiaSharawy/YehiaSharawyPortfolioWebsite#readme",
+  "dependencies": {
+    "three": "^0.179.1"
+  },
+  "devDependencies": {
+    "vite": "^7.1.3"
+  }
+}
